@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>
+        Photo Gallery
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+</head>
+<body>
+    <div class='container'>
+        <center>
+            <ul class='menu1'>
+                <li class='links'><a href='#home'>Home</a></li>
+                <li class='links'><a href='#grid-view'>Gride View</a></li>
+                <li class='links'><a href='#slide-view'>Slide View</a></li>
+            </ul>
+        </center>
+        <section id='grid-view'>
+            <div class="row">
+                <div class="column">
+                    <img src='https://images.all-free-download.com/images/graphicthumb/flowers_516776.jpg' style="width:50%">
+                </div>
+                <div class="column">    
+                    <img src='https://images.all-free-download.com/images/graphicthumb/2015_04_05_taste_of_the_flower_516753.jpg' style="width:50%">
+                </div>
+            </div>
+        </section>
+        <section id='slide-view'>
+        <div id='myCarousel' class='carousel slide'>
+            <div class='carousel-inner'>
+                <div class='item active'>
+                    <center>
+                        <img id='img1' class='img-responsive' src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-red-rose-royalty-free-image-672727875-1546363000.jpg?crop=0.384xw:0.719xh;0.306xw,0.242xh&resize=480:*'>
+                        <div class='carousel-content'>
+                            <p>
+                                Red Rose
+                            </p>
+                        </div>
+                    </center>
+                </div>
+                <div class='item'>
+                    <img id='img2' class='img-responsive' src='https://www.thoughtco.com/thmb/mik7Z00SAYN786BQbieXWOzZmc8=/2121x1414/filters:fill(auto,1)/lotus-flower-828457262-5c6334b646e0fb0001dcd75a.jpg'>
+                    <div class='carousel-content'>
+                        <p>
+                            Pink Lotus
+                        </p>
+                    </div>
+                </div>
+                <a class='left carousel-control' href='#myCarousel' data-slide='prev'>
+                    <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#myCarousel' data-slide='next'>
+                    <span class='glyphicon glyphicon-chevron-right'></span>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+</body> 
+</html>
